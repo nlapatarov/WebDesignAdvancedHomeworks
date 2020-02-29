@@ -11,6 +11,3 @@ function countEvenNumbers(args) {
 }
 let evenCount = countEvenNumbers( [1,4,2,3,5] );
 console.log( evenCount );
-
-
-
