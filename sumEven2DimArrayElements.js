@@ -1,8 +1,5 @@
-function sumEven2DimArrayElements() {
-    let arr = [
-        [1, 2, 3],
-        [4, 5, 6]
-    ];
+function sumEven2DimArrayElements(arr) {
+    
     let sumInTheFunction = 0;
 
     for (let i = 0; i < arr.length; i++) {
@@ -16,5 +13,8 @@ function sumEven2DimArrayElements() {
     }
     return sumInTheFunction;
 }
-let sum = sumEven2DimArrayElements();
+let sum = sumEven2DimArrayElements([
+    [1, 2, 3],
+    [4, 5, 6]
+]);
 console.log(sum);
